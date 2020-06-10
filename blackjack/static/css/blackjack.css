@@ -1,0 +1,49 @@
+.flex-blackjack-row-1, .flex-blackjack-row-2{
+    display: flex;
+    border: 1px solid black;
+    padding: 10px;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.container-5{
+    border: 1px solid black;
+    width: 75%;
+    margin:0 auto;
+    text-align: center;
+}
+
+.flex-blackjack-row-1, .flex-blackjack-row-2, .flex-blackjack-row-3{
+    background: url('/home/febueno/Documents/JSchallanges/blackjack/static/images/BJbackgr.jpg'), center;
+    color: blanchedalmond;
+}
+
+.flex-blackjack-row-1 div{
+    border: 1px solid black;
+    padding: 10px;
+    height: 350px;
+    flex:1;
+    text-align: center;
+}
+
+.flex-blackjack-row-1 img{
+    width: 25%;
+    padding: 10px;
+}
+
+.flex-blackjack-row-2 button{
+    border: 1px solid black;
+    padding: 10px;
+}
+
+.flex-blackjack-row-2 div, .flex-blackjack-row-3 div{
+    border: 1px solid black;
+    padding: 10px;
+    text-align: center;
+}
+
+table{
+    border: 1px solid black;
+    padding: 10px
+}
