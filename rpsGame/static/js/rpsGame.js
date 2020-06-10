@@ -1,7 +1,7 @@
 /**
  * scissors-paper-rock game
  * 
- * Click in any of the 3 images provided (scissors-paper-rock) while a bot does the same. 
+ * Click any of the 3 images provided (scissors-paper-rock) while a bot does the same. 
  * Results will be printed in browser.
  * 
  * @author feBueno, June 2020
