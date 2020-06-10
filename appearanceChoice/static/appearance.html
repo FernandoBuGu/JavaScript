@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang=" en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device, initial-scale=1.0">
+        <meta http-equiv=" X-UA-Compatible" content="ie=edge">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/appearance.css">
+        <title>Gene choice</title>
+    </head>
+    <body>
+        <div class="container-4">
+            <h2 id="change-my-gene">Choose buttons-background-color</h2>
+            <div class=flex-box-pick-gene>
+                <form action ="">
+                    <select name="backdrop" id="background" onchange="buttonGeneChange(this)">
+                        <option value="random">Random</option>
+                        <option value="red">Red</option>
+                        <option value="green">Green</option>
+                        <option value="reset">Reset</option>
+                    </select>
+                </form>
+                <button class="btn btn-primary">BRCA1</button>
+                <button class="btn btn-danger">BRCA2</button>
+                <button class="btn btn-warning">TP53</button>
+                <button class="btn btn-success">PTEN</button>
+
+            </div>
+
+        </div>
+
+        <script src="js/appearance.js"></script>
+    </body>
+</html>
